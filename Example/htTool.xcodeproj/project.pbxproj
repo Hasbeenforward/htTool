@@ -13,7 +13,6 @@
 		6003F598195388D20070C39A /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 6003F596195388D20070C39A /* InfoPlist.strings */; };
 		6003F59A195388D20070C39A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F599195388D20070C39A /* main.m */; };
 		6003F59E195388D20070C39A /* HTAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F59D195388D20070C39A /* HTAppDelegate.m */; };
-		6003F5A7195388D20070C39A /* HTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5A6195388D20070C39A /* HTViewController.m */; };
 		6003F5A9195388D20070C39A /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 6003F5A8195388D20070C39A /* Images.xcassets */; };
 		6003F5B0195388D20070C39A /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F5AF195388D20070C39A /* XCTest.framework */; };
 		6003F5B1195388D20070C39A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 6003F58D195388D20070C39A /* Foundation.framework */; };
@@ -22,6 +21,7 @@
 		6003F5BC195388D20070C39A /* Tests.m in Sources */ = {isa = PBXBuildFile; fileRef = 6003F5BB195388D20070C39A /* Tests.m */; };
 		71719F9F1E33DC2100824A3D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */; };
 		873B8AEB1B1F5CCA007FD442 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 873B8AEA1B1F5CCA007FD442 /* Main.storyboard */; };
+		966C72B0257A0F0E00C8DC6C /* HTViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 966C72AF257A0F0E00C8DC6C /* HTViewController.m */; };
 		9B3AB4CB2CFA1015FA4BEA3D /* Pods_htTool_Tests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CA5FD53347A5B4227051CD1E /* Pods_htTool_Tests.framework */; };
 		ABC023D6D47835442E41A6F3 /* Pods_htTool_Example.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9EBE8353AD03168B4D3BA950 /* Pods_htTool_Example.framework */; };
 /* End PBXBuildFile section */
@@ -49,8 +49,6 @@
 		6003F59B195388D20070C39A /* htTool-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "htTool-Prefix.pch"; sourceTree = "<group>"; };
 		6003F59C195388D20070C39A /* HTAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTAppDelegate.h; sourceTree = "<group>"; };
 		6003F59D195388D20070C39A /* HTAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTAppDelegate.m; sourceTree = "<group>"; };
-		6003F5A5195388D20070C39A /* HTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTViewController.h; sourceTree = "<group>"; };
-		6003F5A6195388D20070C39A /* HTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTViewController.m; sourceTree = "<group>"; };
 		6003F5A8195388D20070C39A /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		6003F5AE195388D20070C39A /* htTool_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = htTool_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F5AF195388D20070C39A /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
@@ -61,11 +59,13 @@
 		713CA4001D8E904EAC57ADD0 /* Pods-htTool_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-htTool_Tests.release.xcconfig"; path = "Target Support Files/Pods-htTool_Tests/Pods-htTool_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		71719F9E1E33DC2100824A3D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		873B8AEA1B1F5CCA007FD442 /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = Main.storyboard; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		966C72AE257A0F0E00C8DC6C /* HTViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HTViewController.h; sourceTree = "<group>"; };
+		966C72AF257A0F0E00C8DC6C /* HTViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HTViewController.m; sourceTree = "<group>"; };
 		9EBE8353AD03168B4D3BA950 /* Pods_htTool_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_htTool_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		AE29EA0FAD1B8953FB02250D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		AE29EA0FAD1B8953FB02250D /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		CA5FD53347A5B4227051CD1E /* Pods_htTool_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_htTool_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		CA9E61513193A2577BC1AFC5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		CCAD9515C3DEC567A2CBF00B /* htTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = htTool.podspec; path = ../htTool.podspec; sourceTree = "<group>"; };
+		CA9E61513193A2577BC1AFC5 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		CCAD9515C3DEC567A2CBF00B /* htTool.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = htTool.podspec; path = ../htTool.podspec; sourceTree = "<group>"; };
 		FA54FCA1395EF80BA69ED9F0 /* Pods-htTool_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-htTool_Example.debug.xcconfig"; path = "Target Support Files/Pods-htTool_Example/Pods-htTool_Example.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -103,7 +103,6 @@
 				47789C801B2B43C36E56C195 /* Pods-htTool_Tests.debug.xcconfig */,
 				713CA4001D8E904EAC57ADD0 /* Pods-htTool_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -146,9 +145,9 @@
 			children = (
 				6003F59C195388D20070C39A /* HTAppDelegate.h */,
 				6003F59D195388D20070C39A /* HTAppDelegate.m */,
+				966C72AE257A0F0E00C8DC6C /* HTViewController.h */,
+				966C72AF257A0F0E00C8DC6C /* HTViewController.m */,
 				873B8AEA1B1F5CCA007FD442 /* Main.storyboard */,
-				6003F5A5195388D20070C39A /* HTViewController.h */,
-				6003F5A6195388D20070C39A /* HTViewController.m */,
 				71719F9D1E33DC2100824A3D /* LaunchScreen.storyboard */,
 				6003F5A8195388D20070C39A /* Images.xcassets */,
 				6003F594195388D20070C39A /* Supporting Files */,
@@ -249,6 +248,9 @@
 				LastUpgradeCheck = 0720;
 				ORGANIZATIONNAME = HOU;
 				TargetAttributes = {
+					6003F589195388D20070C39A = {
+						DevelopmentTeam = L99L8DXKTT;
+					};
 					6003F5AD195388D20070C39A = {
 						TestTargetID = 6003F589195388D20070C39A;
 					};
@@ -259,6 +261,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
@@ -389,8 +392,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				966C72B0257A0F0E00C8DC6C /* HTViewController.m in Sources */,
 				6003F59E195388D20070C39A /* HTAppDelegate.m in Sources */,
-				6003F5A7195388D20070C39A /* HTViewController.m in Sources */,
 				6003F59A195388D20070C39A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -519,6 +522,7 @@
 			baseConfigurationReference = FA54FCA1395EF80BA69ED9F0 /* Pods-htTool_Example.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L99L8DXKTT;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "htTool/htTool-Prefix.pch";
 				INFOPLIST_FILE = "htTool/htTool-Info.plist";
@@ -535,6 +539,7 @@
 			baseConfigurationReference = 461026534E7BBC40A4127309 /* Pods-htTool_Example.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = L99L8DXKTT;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "htTool/htTool-Prefix.pch";
 				INFOPLIST_FILE = "htTool/htTool-Info.plist";

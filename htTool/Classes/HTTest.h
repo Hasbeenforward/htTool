@@ -1,5 +1,5 @@
 //
-//  HTViewController.h
+//  HTTest.h
 //  htTool_Example
 //
 //  Created by HOU on 2020/12/4.
@@ -10,8 +10,8 @@
 
 NS_ASSUME_NONNULL_BEGIN
 
-@interface HTViewController : UIViewController
-
+@interface HTTest : UIViewController
+-(void)testLog;
 @end
 
 NS_ASSUME_NONNULL_END
